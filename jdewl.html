@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editable Table</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    td {
+        cursor: pointer;
+    }
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+    </tr>
+    <tr>
+        <td contenteditable="true">Editable cell 1</td>
+        <td contenteditable="true">Editable cell 2</td>
+    </tr>
+</table>
+
+</body>
+</html>
